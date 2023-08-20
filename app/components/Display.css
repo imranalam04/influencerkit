@@ -1,0 +1,27 @@
+/* Default styles for all screen sizes */
+.responsive-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Media query for tablets and larger screens */
+  @media (min-width: 768px) {
+    .responsive-form {
+      width: 60%;
+    }
+  }
+  
+  /* Media query for laptops and larger screens */
+  @media (min-width: 992px) {
+    .responsive-form {
+      width: 50%;
+    }
+  }
+  
+  /* Media query for large desktop screens */
+  @media (min-width: 1200px) {
+    .responsive-form {
+      width: 40%;
+    }
+  }
+  
