@@ -43,7 +43,7 @@ const Sharing = () => {
       </div>
       <div className="col-lg-6">
       <Image
-      src="/influencer1.jpg"
+      src="/sharing.jpg"
       width={600}
       height={800}
       className="img-fluid rounded mx-auto mt-5"

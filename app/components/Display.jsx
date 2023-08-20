@@ -1,8 +1,7 @@
-"use client"
 import React from 'react';
 import Link from 'next/link';
 import { FiUser } from 'react-icons/fi';
-import './Display.css'; // Make sure to create this CSS file for your custom styles
+import './Display.css';
 
 const Display = () => {
   return (
@@ -54,13 +53,6 @@ const Display = () => {
           required
         />
       </div>
-           {/*<div className='py-4'>
-              <div className='text-center'>
-                <Link href='/connect' className='btn btn-danger'>
-                  Next
-                </Link>
-              </div>
-  </div> */}
           </form>
         </div>
       </div>

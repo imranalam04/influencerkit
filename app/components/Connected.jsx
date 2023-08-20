@@ -8,9 +8,9 @@ const Connected = () => {
       <div className="row">
         <div className="col-md-6 my-3">
           <Image
-            src="/influencer1.jpg"
+            src="/connection.jpg"
             width={600}
-            height={400}
+            height={500}
             className="img-fluid rounded"
             alt="..."
           />

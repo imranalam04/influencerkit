@@ -8,7 +8,7 @@ const AccurateData = () => {
       <div className="row">
         <div className="col-md-6 my-3">
           <Image
-            src="/influencer1.jpg"
+            src="/data.jpg"
             width={600}
             height={800}
             className="img-fluid rounded"

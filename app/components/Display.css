@@ -25,3 +25,10 @@
     }
   }
   
+
+  @media (max-width: 768px) {
+    .responsive-form {
+      max-width: 100%; /* Allow full width on smaller screens */
+      padding: 10px; /* Add some padding for readability */
+    }
+  }
