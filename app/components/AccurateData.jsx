@@ -11,7 +11,7 @@ const AccurateData = () => {
             src="/data.jpg"
             width={600}
             height={800}
-            className="img-fluid rounded"
+            className="img-fluid rounded mx-auto"
             alt="..."
           />
         </div>
