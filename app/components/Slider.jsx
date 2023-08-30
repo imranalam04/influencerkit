@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Slider = () => {
   return (
-    <div>
+    <div className="container ">
       <div className="container-fluid my-3">
         <div className="row">
           <div className="col">

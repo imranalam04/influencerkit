@@ -16,7 +16,7 @@ const CardsGroup = () => {
             <div className="card-body">
               <h5 className="card-title text-primary">Influencer Kits</h5>
               <p className="card-text">
-                Mediakits is expanding to include new functionality and
+                InfluencerKits is expanding to include new functionality and
                 additional features you can’t get anywhere else!
               </p>
               <Link href="/about" className="btn btn-outline-primary">

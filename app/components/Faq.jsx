@@ -2,8 +2,9 @@ import React from 'react';
 
 const Faq = () => {
   return (
+    <div className='' style={{backgroundColor:"lightgray"}}>
     <div className='container'>
-      <h2 className='text-center mb-4'>Frequently Asked Questions</h2>
+      <h2 className='text-center mb-4 p-5'>Frequently Asked Questions</h2>
       <div className='row'>
         <div className='col-md-6 col-lg-4 my-3'>
           <b className='fs-5'>Do you store my passwords?</b>
@@ -43,15 +44,17 @@ const Faq = () => {
       </div>
       <div className='row'>
         <div className='col-lg-12'>
-          <div className='card bg-primary my-4'>
-            <div className='card-body text-white text-center'>
+          <div className='card  border-5 rounded-md  my-4'>
+            <div className='card-body text-white text-center 
+            bg-gradient-violet-blue' >
               <h3 className='fs-5'>Still have questions?</h3>
               <p>Can’t find the answer you’re looking for? Send our team a message!</p>
-              <button className='btn btn-danger'>Contact Us</button>
+              <button className='btn text-white' style={{backgroundColor:"#fc076f"}}>Contact Us</button>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

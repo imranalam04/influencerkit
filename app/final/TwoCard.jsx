@@ -6,16 +6,18 @@ import { PieChart } from "@mui/x-charts";
 const TwoCard = () => {
   return (
     <div className="container">
-      <div className="row my-3">
-        <div className="col-12 col-md-6 mb-3">
+      <div className="row my-5">
+        <div className="col-12 col-md-6 mb-3 ">
           <div className="card shadow-lg border-dark">
-            <div className="card-body">
+            <div className="card-body text-center">
+            <div className="row d-flex justify-content-center align-items-center">
               <h5 className="card-title fs-4 p-3 font-weight-bold">
                 Age Distribution
                 <BsFillFileBarGraphFill className="mx-3 text-danger" />
               </h5>
+              </div>
               <div className="age-group">
-                <span className="fs-6 text-secondary">13-17</span>
+                <span className="d-flex fs-6 text-secondary">13-17</span>
                 <div className="progress">
                 <div
                 className="progress-bar bg-danger"
@@ -85,12 +87,14 @@ const TwoCard = () => {
           </div>
         </div>
         <div className="col-12 col-md-6">
-          <div className="card shadow-lg border-dark mb-3" style={{height:"21.05rem"}}>
-            <div className="card-body">
+          <div className="card shadow-lg border-dark"  style={{height:"20.8rem"}}>
+            <div className="card-body text-center">
+            <div className="row d-flex justify-content-center align-items-center">
               <h5 className="card-title fs-4 p-3 font-weight-bold">
                 Country Distribution
                 <HiLocationMarker className="mx-3 text-danger" />
               </h5>
+              </div>
               <div className="pie-chart-container d-flex justify-content-center">
                 <PieChart
                   series={[

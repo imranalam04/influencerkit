@@ -9,7 +9,7 @@ const Sharing = () => {
     <div className="container my-5">
     <div className="row">
       <div className="col-lg-6">
-        <h2 className="text-danger">Sharing</h2>
+        <h2 className="" style={{color:"#fc076f"}}>Sharing</h2>
         <h3 className="">Distributing your media kit is just one click away</h3>
         <div className="row my-4">
           <span className="">

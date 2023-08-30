@@ -3,6 +3,11 @@
 @tailwind utilities; */
 /* Add this to your CSS or a separate stylesheet */
 
+
+
+
+
+
 @keyframes glowing {
   0% {
     color: #fff;

@@ -4,7 +4,8 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const AccurateData = () => {
   return (
-    <div className="container">
+    <div className="">
+    <div className='container'>
       <div className="row">
         <div className="col-md-6 my-3">
           <Image
@@ -16,7 +17,7 @@ const AccurateData = () => {
           />
         </div>
         <div className="col-md-6">
-          <h2 className="text-danger">Accurate Data</h2>
+          <h2 className="" style={{color:"#fc076f"}}>Accurate Data</h2>
           <h3 className="fs-2">Pitch brands with confidence</h3>
           <div className="row my-4">
             <div className="col-12 col-sm-7 p-1">
@@ -54,6 +55,7 @@ const AccurateData = () => {
                 <span className="fs-6">Twitch Streamer</span>
               </span>
             </div>
+          </div>
           </div>
         </div>
       </div>

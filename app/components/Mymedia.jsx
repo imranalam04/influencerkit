@@ -8,11 +8,13 @@ const Mymedia = () => {
         <div className='row justify-content-center align-items-center min-vh-100'>
           <div className='col-12'>
             <h1 className='fs-4 my-3'>My InfluencerKits</h1>
-            <main className="card p-5 shadow-lg">
-              <span className='d-flex justify-content-center'>You haven't created an InfluencerKits yet</span>
+            <main className="card p-5 shadow-lg text-center">
+              <span className='d-flex justify-content-center '>You haven't created an InfluencerKits yet</span>
               <div className='row p-4'>
                 <div className='col-12 text-center'>
-                  <Link className='btn btn-primary btn-sm rounded-pill p-2' href="/create">CREATE YOUR FIRST INFLUENCER KITS</Link>
+                <div className="row d-flex justify-content-center align-items-center" style={{width:"28%",marginLeft:"36%"}}>
+                 <Link className='btn btn-primary btn-sm rounded-pill ' style={{ minWidth: '200px' }} href="/create">CREATE YOUR FIRST INFLUENCER KITS</Link>
+                </div>
                 </div>
               </div>
             </main>

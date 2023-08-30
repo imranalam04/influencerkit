@@ -8,11 +8,11 @@ import Image from 'next/image';
 const Main = () => {
   return (
     <div>
-    <div className="container">
-    <div className="row">
-      <div className="col-md-6">
+    <div className="">
+    <div className="row my-5">
+      <div className="col-md-6 order-md-2">
         <motion.h1
-          className="font-monospace"
+          className="font-monospace order-md-1"
           style={{ fontSize: "3rem" }}
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const Main = () => {
             src="/johndoe.jpg"
             width={600}
             height={800}
-            className="img-fluid rounded mx-auto mt-5"
+            className="img-fluid rounded "
             alt="..."
           />
         </motion.div>

@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Customization = () => {
   return (
-    <div>
+    <div className="">
       <div className="container my-5">
         <div className="row">
           <div className="col-lg-6">
-            <h2 className="text-danger">Customization</h2>
+            <h2 className="" style={{color:"#fc076f"}}>Customization</h2>
             <h3 className="">Control how brands see you online</h3>
             <div className="row my-4">
               <span className="">

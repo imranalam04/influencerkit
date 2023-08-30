@@ -16,7 +16,7 @@ const Connected = () => {
           />
         </div>
         <div className="col-md-6">
-          <h2 className="text-danger">Connected Everywhere</h2>
+          <h2 className="" style={{color:"#fc076f"}}>Connected Everywhere</h2>
           <h3 className="fs-2">Simple, secure API connections to top platforms</h3>
           <div className="row my-4">
             <div className="col-12 col-sm-6">

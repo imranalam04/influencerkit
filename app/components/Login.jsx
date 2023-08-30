@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Login = () => {
   return (
-    <div className="container">
+    <div className="container my-5">
       <div className="row justify-content-center align-items-center min-vh-100">
         <div className="col-lg-4">
           <motion.main
